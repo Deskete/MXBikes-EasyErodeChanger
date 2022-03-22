@@ -12,7 +12,7 @@ YouTube Turorial I found thats made by MX Bikes YouTuber TKO SMOKEY is quick and
 
 
 ## Installation and Usage
-1) Download compiled exe from [click here]()
+1) Download compiled exe from [click here](https://github.com/Deskete/MXBikes-EasyErodeChanger/releases/download/v1.0/MX.Bikes.EasyErodeChanger.exe)
 
 2) Run ```MX Bikes EasyErodeChanger.exe``` 
 
