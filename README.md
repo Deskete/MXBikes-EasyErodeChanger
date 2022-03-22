@@ -8,7 +8,7 @@ Requires to have ```deformation_multiplier=1.0``` already inside
 
 If you don't have that done watch a
 YouTube Turorial I found thats made by MX Bikes YouTuber TKO SMOKEY is quick and easy
-<p><a href="/https://www.youtube.com/watch?v=ylUi2Z4Wf_Y" title="title">https://www.youtube.com/watch?v=ylUi2Z4Wf_Y</a></p>
+<p><a href="/https://www.youtube.com/watch?v=ylUi2Z4Wf_Y title="title">https://https://www.youtube.com/watch?v=ylUi2Z4Wf_Y</a></p>
 
 
 ## Installation and Usage
