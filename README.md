@@ -8,11 +8,11 @@ Requires to have ```deformation_multiplier=1.0``` already inside
 
 If you don't have that done watch a
 YouTube Turorial I found thats made by MX Bikes YouTuber TKO SMOKEY is quick and easy
-<p><a href="/https://www.youtube.com/watch?v=ylUi2Z4Wf_Y title="title">https://https://www.youtube.com/watch?v=ylUi2Z4Wf_Y</a></p>
+[https://https://www.youtube.com/watch?v=ylUi2Z4Wf_Y](https://https://www.youtube.com/watch?v=ylUi2Z4Wf_Y)
 
 
 ## Installation and Usage
-1) Download compiled exe from click here
+1) Download compiled exe from [click here]()
 
 2) Run ```MX Bikes EasyErodeChanger.exe``` 
 
