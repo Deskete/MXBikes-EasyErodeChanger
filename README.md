@@ -29,7 +29,7 @@ YouTube Turorial I found thats made by MX Bikes YouTuber TKO SMOKEY is quick and
 
 ##
 ### Folders and files this program creates
-This program will create 1 folder ```MX Bikes Easy Erode Changer``` inside ```C:\User\[YourUsername]\Documents``` and will contain 1 file ```EasyErodeSettings.ini``` which contains
+This program will create a backup of your ```profile.ini``` and place it next to it called ```profile.ini.bak``` and 1 folder ```MX Bikes Easy Erode Changer``` inside ```C:\User\[YourUsername]\Documents``` and will contain 1 file ```EasyErodeSettings.ini``` which contains
 ```
 [FileLocations]
 profileINI=Not Selected
