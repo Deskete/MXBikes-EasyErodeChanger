@@ -41,14 +41,13 @@ GameEXE:=readini(settingsINI,"FileLocations","gameEXE")
 ErodeMulti:=readini(settingsINI,"ErodeMultiplier","Erode")
 (cErode!><=0) ? (cErode:="profile.ini Not Set")
 
-
 Gui, Add, Button, x282 y9 w120 h30 gBrowseProfileINI, Set Profile.ini
 Gui, Add, Button, x312 y189 w130 h40 gBrowseGame, Set Game .exe
 Gui, Add, Text, x12 y9 w270 h40 vProfileINI, %ProfileINI%
 Gui, Add, Text, x42 y199 w270 h40 vGameEXE, %GameEXE%
 Gui, Add, Edit, x187 y89 w80 h20 r1 vErodeMulti g_ErodeMulti, %ErodeMulti%
-Gui, Add, Text, x82 y83 w100  +Center, Set deformation_multiplier
-Gui, Add, Button, x70 y119 w250 h30 Default gsetErode, Write deformation_multiplier To profile.ini
+Gui, Add, Text, x82 y90 w100  +Center, deformation_multiplier
+Gui, Add, Button, x70 y119 w250 h30 Default gsetErode, Set Erode
 Gui, Add, Button, x312 y229 w130 h20 gRunGame, Run Game
 Gui, Add, Button, x402 y9 w40 h30 gOpenProfileINI, Open
 Gui, Add, Text, x320 y125 w130 h20 vcErode +Center, Current Erode= %cErode%
@@ -91,8 +90,7 @@ if !(FileExist(ProfileINI ".bak"))
 	quicktip("Set")
 	return
 }
-IfNotExist,%ProfileINI%.bak
-	MsgBox,,ERROR, %error1%
+IfNotExist,%ProfileINI%.bak, MsgBox,,ERROR, %error1%
 return
 
 
@@ -149,6 +147,7 @@ writeini(value,file,section,key){
 	IniWrite,%value%,%file%,%section%,%key%
 	return 
 }
+
 
 startup(){
 	
